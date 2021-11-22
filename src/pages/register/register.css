@@ -1,0 +1,52 @@
+.Register {
+       height: calc(100vh - 50px);
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       background: url("https://my.chartered.college/wp-content/uploads/2020/04/essentialiving-pjeM49KIEik-unsplash-800x700.jpg");
+       background-size: cover;
+       background-position: center;
+       opacity: 0.8;
+       align-items: center;
+}
+
+.RegisterTitle {
+       font-size: 50px;
+}
+
+.RegisterInput {
+       border: none;
+       padding: 10px;
+}
+
+.RegisterForm {
+       display: flex;
+       flex-direction: column;
+       margin-top: 20px;
+}
+
+.RegisterForm label {
+       margin: 10px 0px;
+}
+
+.LoginButton {
+       margin-top: 20px;
+       cursor: pointer;
+       background-color: teal;
+       border: none;
+       color: white;
+       border-radius: 10px;
+       padding: 10px;
+}
+
+.RegisterButton {
+       position: absolute;
+       top: 60px;
+       right: 20px;
+       cursor: pointer;
+       border: none;
+       border-radius: 5px;
+       color: white;
+       background-color: lightcoral;
+       padding: 10px;
+}
